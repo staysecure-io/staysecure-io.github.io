@@ -1,0 +1,21 @@
+{
+  "name": "staysecure-frontpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Alexey Busygin",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "vite": "^5.4.0"
+  },
+  "devDependencies": {
+    "vite-plugin-html": "^3.2.2"
+  }
+}

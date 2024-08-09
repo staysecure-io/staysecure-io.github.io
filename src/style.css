@@ -1,0 +1,248 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.container {
+  max-width: 1140px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  padding-top: 15px;
+}
+
+.footer svg {
+  width: 18px;
+  height: 16px;
+}
+
+.footer svg path{
+  fill: currentcolor;
+}
+
+svg.leaf {
+  fill:#07a961;
+  width: 16px;
+  height: 14px;
+}
+
+.action-buttons a {
+    display: inline-block;
+    margin-right: 1em;
+}
+.profile-link {
+    text-decoration: underline;
+}
+.expire-expired, .expire-error {
+    font-weight: bold;
+    color: #b02323;
+}
+
+.status-error {
+    font-weight: bold;
+    color: #b02323;
+}
+.status-warning {
+    font-weight: bold;
+    color: #fba325;
+}
+.status-ok {
+    font-weight: bold;
+    color: #36c869;
+}
+
+.top-logo {
+    width: 150px;
+}
+
+/**/
+
+.pricing .card {
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing .card li {
+  padding-left: 0.5rem;
+}
+.pricing .card li::marker {
+  content: "✔️";
+  color: transparent;
+  text-shadow: 0 0 0 #228b22;
+}
+.pricing .card li.text-muted::marker {
+  content: "❌";
+  color: transparent;
+  text-shadow: 0 0 0 #6c757d;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 2rem;
+    margin: 0;
+}
+
+    .pricing .card-price .period {
+        font-size: 0.8rem;
+    }
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+.pricing .fa-check {
+    color: forestgreen;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+        .pricing .card:hover .btn {
+            opacity: 1;
+        }
+}
+
+.hedgehog {
+    text-align: center;
+}
+
+    .hedgehog img {
+        max-width: 100%;
+        border-radius: 140px
+    }
+
+    .hedgehog i {
+        font-size: 80%;
+        color: #333333;
+    }
+
+.front-page {
+    background: #f0e8eb;
+}
+
+    .front-page h1 {
+        font-size: 1.8rem;
+    }
+
+    .front-page .top-logo {
+        width: 240px;
+        margin-top: 1rem;
+    }
+
+    .front-page li.nav-item {
+        padding: 1rem;
+    }
+
+    .front-page a.nav-link {
+        border-bottom: #f03a6d solid 3px;
+        padding: 2px 1px!important;
+        color: #333333!important;
+    }
+
+    .front-page .btn-primary {
+        background-color: #00cc99;
+        border-color: #00cc99;
+    }
+
+        .front-page .btn-primary {
+            color: white!important;
+        }
+
+    .front-page .border-top {
+        border-top: 2px solid #00cc99!important;
+    }
+
+    .front-page .signup-button {
+        width: 30%;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .front-page p {
+        line-height: 1.8;
+    }
+
+    .front-page h3 {
+        line-height: 1.4;
+        font-size: 1.5rem;
+    }
+
+    .front-page a {
+        color: #0b28f1;
+    }
