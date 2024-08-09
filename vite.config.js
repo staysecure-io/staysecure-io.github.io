@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { createHtmlPlugin } from 'vite-plugin-html';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
   root: 'src', // Set the root to the src folder
@@ -24,6 +25,14 @@ export default defineConfig({
         minifyCSS: true,
         minifyJS: true,
       },
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'favicon.ico',
+          dest: '',
+        },
+      ],
     }),
   ],
 });
