@@ -13,7 +13,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
-    "vite": "^6.2.3"
+    "vite": "^6.2.4"
   },
   "devDependencies": {
     "vite-plugin-html": "^3.2.2",
